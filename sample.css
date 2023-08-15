@@ -1,0 +1,578 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Clicker+Script&family=Playfair+Display&family=Poppins:wght@400;500;600;700&display=swap');
+
+/* @import '~bootstrap/dist/css/bootstrap.css'; */
+button:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.flexCenter {
+    display: flex;
+    row-gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", "sans-serif";
+    scroll-behavior: smooth;
+}
+
+.paddings {
+    padding: 1.5rem;
+}
+
+.innerWidth {
+    width: 100%;
+}
+
+.body {
+    background-image: url(coffee_image.png);
+
+}
+
+.coffee-shop {
+    color: #FFF;
+    font-family: 'Clicker Script', cursive;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.hero-wrapper {
+    color: whitesmoke;
+    position: relative;
+    text-align: left;
+
+    padding-bottom: 2rem;
+    padding-top: 10rem;
+    padding-left: 5rem;
+
+}
+
+.hero-container {
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.title {
+    color: #FFF;
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.hero-des {
+    color: #FFF;
+    font-family: 'Playfair Display', serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 34px;
+    /* 170% */
+}
+
+.hero-coffe {
+    color: #FFF;
+    font-family: Clicker Script;
+    font-size: 200px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.third-title {
+    color: var(--coffee, #603809);
+    font-family: 'Playfair Display', serif;
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.third-des {
+    width: 350px;
+    color: #707070;
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 34px;
+    align-items: flex-end;
+    /* 170% */
+}
+
+.last {
+    color: var(--coffee, #603809);
+    font-family: 'Playfair Display', serif;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: max-content;
+}
+
+.coffees-tittle {
+    width: max-content
+}
+
+.coffees-p {
+    color: #707070;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 34px;
+    /* 170% */
+}
+
+.card {
+    display: flex;
+    height: 400px;
+    min-width: 200px;
+    max-height: 700px;
+    width: 350px;
+    min-width: 260px;
+    max-width: 367px;
+    padding: 23px 33px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2px;
+    top: 30px;
+    left: 20px;
+    border: 1px solid rgba(249, 192, 106, 0.42);
+    background: #FFF9F1;
+    box-shadow: 0px 16px 24px 0px rgba(118, 118, 178, 0.24);
+}
+
+.card:hover {
+    scale: 1.025;
+    cursor: pointer;
+}
+
+.card-content {
+    flex: 1 0 0;
+    color: rgba(35, 35, 64, 0.90);
+
+    /* Paragraph/Desktop */
+    font-family: Lexend Deca;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+    /* 150% */
+}
+
+.card-name {
+    color: var(--coffee, #603809);
+    font-family: 'Playfair Display', serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.card-des {
+    color: #1E1E1E;
+    font-family: 'Playfair Display', serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.card-price {
+    color: var(--coffee, #603809);
+    font-family: Playfair Display;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.bodyf {
+    background-image: url(fotter_image.png);
+    position: absolute;
+    filter: blur(7px);
+    z-index: -1;
+    width: 1366px;
+    height: 698px;
+    flex-shrink: 0;
+
+}
+
+.content {
+    top: 10px;
+}
+
+.head {
+    color: #22aac2;
+    font-family: Clicker Script;
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.heading {
+    color: #947203;
+    font-family: Playfair Display;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.pad {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.con {
+    height: 136px;
+    width: 180px;
+}
+
+.foo-con {
+    color: #4845ece1;
+    font-family: Playfair Display;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 42px;
+    /* 233.333% */
+}
+
+.us-f {
+    flex-shrink: 0;
+    color: #4845ece1;
+    font-family: Playfair Display;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.us-s {
+    color: #4845ece1;
+    font-family: Playfair Display;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: all .2s linear;
+    line-height: 1.5;
+}
+
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+body {
+    background: #fcf2e8;
+    padding-left: 30rem;
+}
+
+section {
+    padding: 1rem 5%;
+    min-height: 100vh;
+}
+
+
+
+
+.heading span {
+    color: var(--main-color);
+    text-transform: uppercase;
+}
+
+
+
+
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    background: #222;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+    flex-flow: column;
+    padding: 8rem 2rem;
+    width: 30rem;
+    text-align: center;
+}
+
+header .logo {
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 3rem;
+    font-weight: bolder;
+}
+
+header .logo span {
+    text-transform: uppercase;
+    color: var(--main-color);
+}
+
+header .navbar a {
+    display: block;
+    font-size: 2rem;
+    color: #fff;
+    margin: 2rem 0;
+}
+
+header .navbar a:hover {
+    letter-spacing: .2rem;
+    color: var(--main-color);
+}
+
+header .follow a {
+    font-size: 2.5rem;
+    color: #fff;
+    margin: 0 .7rem;
+}
+
+header .follow a:hover {
+    color: var(--main-color);
+}
+
+#menu-bars {
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+    z-index: 10000;
+    background: var(--main-color);
+    color: #fff;
+    border-radius: .5rem;
+    padding: 1rem 1.5rem;
+    font-size: 3rem;
+    cursor: pointer;
+    display: none;
+}
+
+.home {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.home .image {
+    flex: 1 1 40rem;
+}
+
+.home .image img {
+    width: 100%;
+}
+
+.home .content {
+    flex: 1 1 40rem;
+}
+
+.home .content .hi {
+    font-size: 2rem;
+    color: var(--main-color);
+}
+
+h3 span {
+    color: var(--main-color);
+    text-transform: uppercase;
+}
+
+.home .content .info {
+    font-size: 2.5rem;
+    color: #111;
+    padding: .5rem 0;
+}
+
+.home .content .text {
+    font-size: 1.7rem;
+    color: #666;
+    padding: .5rem 0;
+}
+
+.contact .row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+
+
+
+/* media queries  */
+@media screen and (max-width:991px) {
+
+    html {
+        font-size: 55%;
+    }
+
+    body {
+        padding: 0;
+    }
+
+    #menu-bars {
+        display: initial;
+    }
+
+    header {
+        left: -120%;
+        width: auto;
+    }
+
+    header.active {
+        left: 0%;
+    }
+    
+}
+
+@media screen and (max-width:800px) {
+
+    html {
+        font-size: 40%;
+    }
+
+    header {
+        width: auto;
+    }
+
+    .bodyf {
+
+        position: unset;
+
+        width: auto;
+        height: auto;
+
+
+    }
+
+    .third-des {
+        width: 50%;
+
+        font-size: 10px;
+
+
+        line-height: 20px;
+
+        /* 170% */
+    }
+
+    .third-title {
+
+        font-size: 44px;
+
+    }
+
+    img {
+        width: 70%;
+        height: 80%;
+    }
+
+    .card {
+
+        height: 100%;
+        width: 100%;
+
+        padding: 10px 10px;
+
+        gap: 2px;
+        top: 10px;
+        left: 5px;
+
+    }
+    .card-name {
+
+        font-size: 12px;
+
+    }
+    
+.card-price {
+
+    font-size: 10px;
+
+}
+.last {
+
+    font-size: 30px;
+
+}
+
+.coffees-p {
+ 
+    font-size: 12px;
+ 
+}
+.head {
+
+    font-size: 34px;
+
+}
+
+.heading {
+
+    font-size: 16px;
+
+}
+
+.pad {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.con {
+    height: auto;
+    width: auto;
+}
+
+.foo-con {
+
+    font-size: 15px;
+    
+}
+
+.us-f {
+
+    font-size: 15px;
+
+}
+
+.us-s {
+
+
+    font-size: 12px;
+ 
+
+
+}
+section {
+
+    min-height: 100%;
+}
+}

@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Coffee shop</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css">
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="sample.css">
+
+</head>
+
+<body>
+
+
+    <div id="menu-bars" class="fas fa-bars"></div>
+
+    <!-- header section starts  -->
+
+    <header>
+
+        <a href="#"> <span class="coffee-shop">Coffee shop</a>
+
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#blog">Blog</a>
+            <a href="#contact">About Us</a>
+            <a href="#contact">Contact us</a>
+            <a href="#">Sign In</a>
+            <a href="#">Sign Up</a>
+        </nav>
+
+        <div class="follow">
+            <a href="#" class="fab fa-facebook-f"></a>
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="#" class="fab fa-instagram"></a>
+            <a href="#" class="fab fa-linkedin"></a>
+        </div>
+
+    </header>
+    <section class="hero-wrapper body" id="home">
+        <div class="paddings innerWidth flexCenter hero-container ">
+            <div>
+                <div class="hero-title">
+                    <p class='title'>We’ve got your morning covered with</p>
+                </div>
+                <br />
+                <div class="hero-coffe">Coffee</div>
+                <div>
+                    <span class="hero-des">It is best to start your day with a cup of coffee. Discover the<br />
+                        best flavours coffee you will ever have. We provide the best<br />
+                        for our customers.
+                    </span>
+                </div>
+                <br />
+                <div>
+                    <a href="#order"><button type="button" class='btn-lg btn-success'>Order now</button></a>
+                </div>
+            </div>
+        </div>
+        <br />
+        <br />
+    </section>
+    <section class="blog" id="blog">
+
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="paddings innerWidth flexCenter ">
+                        <div class='flexCenter'>
+                            <div>
+                                <h1 class="third-title">Discover the best coffee</h1>
+                            </div>
+                            <div class="third-des">
+                                <p>Bean Scene is a coffee shop that provides you with quality coffee that helps boost
+                                    your productivity and helps build your mood. Having a cup of coffee is good, but
+                                    having a cup of real coffee is greater. There is no doubt that you will enjoy this
+                                    coffee more than others you have ever tasted.</p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <img  src="coffee.png" alt="" width="365px" ; height=" 365px" ;>
+
+                </div>
+            </div>
+        </div>
+    </section>
+        </div>
+        <section class="order" id="order">
+            <div class='container'>
+                <section>
+                    <div class="paddings innerWidth r-container">
+                        <div>
+                            <h1 class='last'>Enjoy a new blend of coffee style</h1>
+                        </div>
+
+                        <div class="coffees-tittle">
+                            <p class="coffees-p">Explore all flavours of coffee with us. There is always a new cup worth
+                                experiencing</p>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <div class="card">
+                                    <img class="card-img-top" src="Cappuccino.png"
+                                        alt="Card image cap" />
+                                    <div class="card-body">
+                                        <h5 class="card-name">Cappuccino</h5>
+                                        <p class="card-des">Coffee 50% | Milk 50%</p>
+                                        <p class="card-price">$8.50</p>
+                                        <button type="button" class='btn-lg btn-success' onClick="handlesubmit()">Order Now</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="card">
+                                    <img class="card-img-top" src="Chai Latte.png"
+                                        alt="Card image cap" />
+                                    <div class="card-body">
+                                        <h5 class="card-name">Chai Latte</h5>
+                                        <p class="card-des">Coffee 50% | Milk 50%</p>
+                                        <p class="card-price">$8.50</p>
+                                        <button type="button" class='btn-lg btn-success' onclick="handlesubmit()">Order Now</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <br><br>
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <div class="card">
+                                    <img class="card-img-top" src="Macchiato.png"
+                                        alt="Card image cap" />
+                                    <div class="card-body">
+                                        <h5 class="card-name">Macchiato</h5>
+                                        <p class="card-des">Coffee 50% | Milk 50%</p>
+                                        <p class="card-price">$8.50</p>
+                                        <button type="button" class='btn-lg btn-success' onClick="handlesubmit()">Order Now</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="card">
+                                    <img class="card-img-top" src="Expresso.png"
+                                        alt="Card image cap" />
+                                    <div class="card-body">
+                                        <h5 class="card-name">Expresso</h5>
+                                        <p class="card-des">Coffee 50% | Milk 50%</p>
+                                        <p class="card-price">$8.50</p>
+                                        <button type="button" class='btn-lg btn-success' onClick="handlesubmit()">Order Now</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </section>
+                <br />
+                <br />
+
+            </div>
+        </section>
+        <section class="contact" id="contact">
+
+            <div class='paddings innerWidth flexCenter'>
+                <div class='bodyf'></div>
+                <div class="container">
+                    <section>
+                        <div>
+                            <div class="row content">
+                                <div class="col-sm-6">
+                                    <div >
+                                        <p class="head">Coffee shop</p>
+                                    </div>
+                                    <div >
+                                        <p class="foo-con">Coffee shop used to purchase the coffee</p>
+                                    </div>
+                                </div>
+                                </div>
+                                <div class="row">
+                                <div class="col-sm-3">
+                                    <div >
+                                        <p class="heading">About</p>
+                                    </div>
+                                    <div class='con' >
+                                        <p class="foo-con">
+                                            Menu<br />
+                                            Features<br />
+                                            News & Blogs<br />
+                                            Help & Supports</p>
+                                    </div>
+                                </div>
+                                <div class="col-sm-3 pad">
+                                    <div >
+                                        <p class="heading">Company</p>
+                                    </div>
+                                    <div class='con' >
+                                        <p class="foo-con">
+                                            How we work<br/>
+                                            Terms of service<br/>
+                                            Pricing<br/>
+                                            FAQ</p>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4">
+                                <div >
+                                        <p class="heading">Contact Us</p>
+                                    </div>
+                                    <div class='con-us' >
+                                        <p class='us-f'>Akshya Nagar 1st Block 1st Cross, Rammurthy nagar, Bangalore-560016</p>
+                                        <p class="us-s">+1 202-918-2132</p>
+                                        <p class="us-s">coffeeshop@mail.com</p>
+                                        <p class="us-s">www.coffeeshop.com</p>
+                                    </div>
+                                </div>
+    
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+
+
+        </section>
+        <script src="script.js"></script>
+
+</body>
+
+</html>
